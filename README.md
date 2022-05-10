@@ -9,23 +9,16 @@
 - Morning Lecture
 - Roger Wells
 - Bishal Khanal
+- [Beautiful Soup 4 Cheatsheet](https://whatacold.io/blog/2021-12-05-beautifulsoup4-cheatsheet/)
 
 ## Set up
 
 - BS4 from Beautiful Soup imported
 
-- Vercel link:
+## Take Away
 
-## [Capital Finder](capital-finder-m-jntwzhbux-rangelmatt.vercel.app)
+Quickly scraping the web for instances of specific strings, in this case "citations needed' on Wikipedia pages. [Beautiful Soup 4 Cheatsheet](https://whatacold.io/blog/2021-12-05-beautifulsoup4-cheatsheet/) was a big help in helping solve this lab.
 
-### [Enter Country](https://capital-finder-m-ran.vercel.app/api/capital?name=Peru)
+I went into the wikipedia site to find "citations needed", and inspected an instance to find a key to get the value of what I was looking for. Then returned the length of each instance for the first method.
 
-At this point, you have to type in the folder and Country name. The above link already has that filled out.
-
-> `/api/capital?name=(ENTER Country Name)`
-
-### [Enter Capital](https://capital-finder-m-ran.vercel.app/api/capital?Capital=Lima)
-
-At this point, you have to type in the folder and Capital name. The above link already has that filled out.
-
-> `api/capital?capital=(ENTER Capital Name)`
+For the second method, I used the same code, and found that I needed to get the `parent.text` of what I found, and that will return the paragraph of what the citation was needs. I used a for loop to get all the instances on the site.
