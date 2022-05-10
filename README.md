@@ -14,7 +14,7 @@
 
 - BS4 from Beautiful Soup imported
 
-- Vercel link: 
+- Vercel link:
 
 ## [Capital Finder](capital-finder-m-jntwzhbux-rangelmatt.vercel.app)
 
@@ -29,4 +29,3 @@ At this point, you have to type in the folder and Country name. The above link a
 At this point, you have to type in the folder and Capital name. The above link already has that filled out.
 
 > `api/capital?capital=(ENTER Capital Name)`
-
